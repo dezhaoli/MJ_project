@@ -14,6 +14,14 @@ my.ini
 [mysqld]
 innodb_force_recovery = 6
 
+*****应用的脚本
+cat '/cygdrive/c/ProgramData/MySQL/MySQL Server 5.7/Data/DEZHAOLI-PC.err'|grep -oE 'Table.*MySQL\.'  | sed 's@.*roledata/\([a-zA-Z]*\).*but \([0-9]*\) columns.*@\1 \2@' > /cygdrive/d/media/Desktop/a.txt
+function ppp(){ echo "1=[$1],2=[$2]"; num=$2; name=$1; str=$(for(( i=0; i<$num; i++ ));do  echo "id$i bigint,"; done); echo "create table $name ("$str")engine=InnoDB;"|sed 's/,)/)/'; }
+export -f ppp
+dos2unix.exe /cygdrive/d/media/Desktop/a.txt
+cat /cygdrive/d/media/Desktop/a.txt  | while read i j;do ppp $i $j; done > /cygdrive/d/media/Desktop/b.txt
+
+*****结果
 1=[gameaccountindex],2=[5]
 create table gameaccountindex (id0 bigint, id1 bigint, id2 bigint, id3 bigint, id4 bigint)engine=InnoDB;
 1=[gamerecord],2=[11]
