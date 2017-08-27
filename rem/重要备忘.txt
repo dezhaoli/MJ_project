@@ -54,3 +54,11 @@ create table standingsrelation (id0 bigint, id1 bigint, id2 bigint)engine=InnoDB
 create table techargerecord (id0 bigint, id1 bigint, id2 bigint, id3 bigint, id4 bigint, id5 bigint, id6 bigint, id7 bigint)engine=InnoDB;
 1=[winnersinfo],2=[7]
 create table winnersinfo (id0 bigint, id1 bigint, id2 bigint, id3 bigint, id4 bigint, id5 bigint, id6 bigint)engine=InnoDB;
+
+
+
+###
+netstat -ano
+
+###数据库知识
+http://www.runoob.com/mysql/mysql-database-import.html
