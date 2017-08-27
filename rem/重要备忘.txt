@@ -1,0 +1,48 @@
+###W服务名字
+window service name:MySQL57
+
+###帐号
+mysql account:
+root 123456
+dezhaoli 123456
+
+###开关
+services.msc 打开 windows【服务管理器】
+
+###修复数据库
+my.ini
+[mysqld]
+innodb_force_recovery = 6
+
+1=[gameaccountindex],2=[5]
+create table gameaccountindex (id0 bigint, id1 bigint, id2 bigint, id3 bigint, id4 bigint)engine=InnoDB;
+1=[gamerecord],2=[11]
+create table gamerecord (id0 bigint, id1 bigint, id2 bigint, id3 bigint, id4 bigint, id5 bigint, id6 bigint, id7 bigint, id8 bigint, id9 bigint, id10 bigint)engine=InnoDB;
+1=[manager],2=[9]
+create table manager (id0 bigint, id1 bigint, id2 bigint, id3 bigint, id4 bigint, id5 bigint, id6 bigint, id7 bigint, id8 bigint)engine=InnoDB;
+1=[noticetable],2=[3]
+create table noticetable (id0 bigint, id1 bigint, id2 bigint)engine=InnoDB;
+1=[operatelog],2=[7]
+create table operatelog (id0 bigint, id1 bigint, id2 bigint, id3 bigint, id4 bigint, id5 bigint, id6 bigint)engine=InnoDB;
+1=[paylog],2=[6]
+create table paylog (id0 bigint, id1 bigint, id2 bigint, id3 bigint, id4 bigint, id5 bigint)engine=InnoDB;
+1=[playrecord],2=[3]
+create table playrecord (id0 bigint, id1 bigint, id2 bigint)engine=InnoDB;
+1=[prize],2=[8]
+create table prize (id0 bigint, id1 bigint, id2 bigint, id3 bigint, id4 bigint, id5 bigint, id6 bigint, id7 bigint)engine=InnoDB;
+1=[prizerule],2=[4]
+create table prizerule (id0 bigint, id1 bigint, id2 bigint, id3 bigint)engine=InnoDB;
+1=[roominfo],2=[12]
+create table roominfo (id0 bigint, id1 bigint, id2 bigint, id3 bigint, id4 bigint, id5 bigint, id6 bigint, id7 bigint, id8 bigint, id9 bigint, id10 bigint, id11 bigint)engine=InnoDB;
+1=[standings],2=[4]
+create table standings (id0 bigint, id1 bigint, id2 bigint, id3 bigint)engine=InnoDB;
+1=[standingsaccountrelation],2=[3]
+create table standingsaccountrelation (id0 bigint, id1 bigint, id2 bigint)engine=InnoDB;
+1=[standingsdetail],2=[3]
+create table standingsdetail (id0 bigint, id1 bigint, id2 bigint)engine=InnoDB;
+1=[standingsrelation],2=[3]
+create table standingsrelation (id0 bigint, id1 bigint, id2 bigint)engine=InnoDB;
+1=[techargerecord],2=[8]
+create table techargerecord (id0 bigint, id1 bigint, id2 bigint, id3 bigint, id4 bigint, id5 bigint, id6 bigint, id7 bigint)engine=InnoDB;
+1=[winnersinfo],2=[7]
+create table winnersinfo (id0 bigint, id1 bigint, id2 bigint, id3 bigint, id4 bigint, id5 bigint, id6 bigint)engine=InnoDB;

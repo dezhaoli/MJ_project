@@ -1,0 +1,15 @@
+gamerecord 11
+manager 9
+noticetable 3
+operatelog 7
+paylog 6
+playrecord 3
+prize 8
+prizerule 4
+roominfo 12
+standings 4
+standingsaccountrelation 3
+standingsdetail 3
+standingsrelation 3
+techargerecord 8
+winnersinfo 7
