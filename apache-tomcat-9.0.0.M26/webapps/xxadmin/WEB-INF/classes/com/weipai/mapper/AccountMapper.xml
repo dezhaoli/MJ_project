@@ -17,8 +17,7 @@
 		<result column="actualCard" property="actualcard" jdbcType="INTEGER" />
 		<result column="totalCard" property="totalcard" jdbcType="INTEGER" />
 		<result column="createTime" property="createtime" jdbcType="TIMESTAMP" />
-		<result column="lastLoginTime" property="lastlogintime"
-			jdbcType="TIMESTAMP" />
+		<result column="lastLoginTime" property="lastlogintime" jdbcType="TIMESTAMP" />
 		<result column="status" property="status" jdbcType="CHAR" />
 		<result column="isGame" property="isGame" jdbcType="CHAR" />
 	</resultMap>

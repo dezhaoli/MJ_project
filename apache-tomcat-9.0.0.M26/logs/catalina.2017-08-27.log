@@ -508,3 +508,480 @@
 27-Aug-2017 16:57:22.680 信息 [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["ajp-nio-8009"]
 27-Aug-2017 16:57:22.682 信息 [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8080"]
 27-Aug-2017 16:57:22.684 信息 [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["ajp-nio-8009"]
+27-Aug-2017 17:26:54.446 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Server version:        Apache Tomcat/9.0.0.M26
+27-Aug-2017 17:26:54.451 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Aug 2 2017 20:29:05 UTC
+27-Aug-2017 17:26:54.452 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Server number:         9.0.0.0
+27-Aug-2017 17:26:54.453 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Windows 7
+27-Aug-2017 17:26:54.454 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            6.1
+27-Aug-2017 17:26:54.454 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+27-Aug-2017 17:26:54.455 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             C:\Program Files\Java\jdk1.8.0_111\jre
+27-Aug-2017 17:26:54.456 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           1.8.0_111-b14
+27-Aug-2017 17:26:54.457 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+27-Aug-2017 17:26:54.459 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         D:\media\Desktop\MJ_project\apache-tomcat-9.0.0.M26
+27-Aug-2017 17:26:54.460 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         D:\media\Desktop\MJ_project\apache-tomcat-9.0.0.M26
+27-Aug-2017 17:26:54.461 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=D:\media\Desktop\MJ_project\apache-tomcat-9.0.0.M26\conf\logging.properties
+27-Aug-2017 17:26:54.462 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+27-Aug-2017 17:26:54.463 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+27-Aug-2017 17:26:54.465 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+27-Aug-2017 17:26:54.467 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=D:\media\Desktop\MJ_project\apache-tomcat-9.0.0.M26
+27-Aug-2017 17:26:54.468 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=D:\media\Desktop\MJ_project\apache-tomcat-9.0.0.M26
+27-Aug-2017 17:26:54.470 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=D:\media\Desktop\MJ_project\apache-tomcat-9.0.0.M26\temp
+27-Aug-2017 17:26:54.471 信息 [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent Loaded APR based Apache Tomcat Native library [1.2.12] using APR version [1.5.2].
+27-Aug-2017 17:26:54.472 信息 [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+27-Aug-2017 17:26:54.473 信息 [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+27-Aug-2017 17:26:55.352 信息 [main] org.apache.catalina.core.AprLifecycleListener.initializeSSL OpenSSL successfully initialized [OpenSSL 1.0.2k  26 Jan 2017]
+27-Aug-2017 17:26:55.522 信息 [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+27-Aug-2017 17:26:55.780 信息 [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+27-Aug-2017 17:26:55.785 信息 [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["ajp-nio-8009"]
+27-Aug-2017 17:26:55.792 信息 [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+27-Aug-2017 17:26:55.793 信息 [main] org.apache.catalina.startup.Catalina.load Initialization processed in 1905 ms
+27-Aug-2017 17:26:55.830 信息 [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+27-Aug-2017 17:26:55.831 信息 [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet Engine: Apache Tomcat/9.0.0.M26
+27-Aug-2017 17:26:55.841 信息 [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [D:\media\Desktop\MJ_project\apache-tomcat-9.0.0.M26\webapps\docs]
+27-Aug-2017 17:26:56.249 信息 [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [D:\media\Desktop\MJ_project\apache-tomcat-9.0.0.M26\webapps\docs] has finished in [407] ms
+27-Aug-2017 17:26:56.251 信息 [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [D:\media\Desktop\MJ_project\apache-tomcat-9.0.0.M26\webapps\download]
+27-Aug-2017 17:26:56.300 信息 [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [D:\media\Desktop\MJ_project\apache-tomcat-9.0.0.M26\webapps\download] has finished in [49] ms
+27-Aug-2017 17:26:56.301 信息 [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [D:\media\Desktop\MJ_project\apache-tomcat-9.0.0.M26\webapps\examples]
+27-Aug-2017 17:26:56.783 信息 [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [D:\media\Desktop\MJ_project\apache-tomcat-9.0.0.M26\webapps\examples] has finished in [481] ms
+27-Aug-2017 17:26:56.786 信息 [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [D:\media\Desktop\MJ_project\apache-tomcat-9.0.0.M26\webapps\GameServer]
+27-Aug-2017 17:26:57.787 信息 [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+27-Aug-2017 17:26:59.382 信息 [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [D:\media\Desktop\MJ_project\apache-tomcat-9.0.0.M26\webapps\GameServer] has finished in [2,596] ms
+27-Aug-2017 17:26:59.384 信息 [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [D:\media\Desktop\MJ_project\apache-tomcat-9.0.0.M26\webapps\host-manager]
+27-Aug-2017 17:26:59.429 信息 [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [D:\media\Desktop\MJ_project\apache-tomcat-9.0.0.M26\webapps\host-manager] has finished in [46] ms
+27-Aug-2017 17:26:59.432 信息 [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [D:\media\Desktop\MJ_project\apache-tomcat-9.0.0.M26\webapps\manager]
+27-Aug-2017 17:26:59.469 信息 [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [D:\media\Desktop\MJ_project\apache-tomcat-9.0.0.M26\webapps\manager] has finished in [38] ms
+27-Aug-2017 17:26:59.471 信息 [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [D:\media\Desktop\MJ_project\apache-tomcat-9.0.0.M26\webapps\ROOT]
+27-Aug-2017 17:26:59.498 信息 [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [D:\media\Desktop\MJ_project\apache-tomcat-9.0.0.M26\webapps\ROOT] has finished in [28] ms
+27-Aug-2017 17:26:59.500 信息 [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [D:\media\Desktop\MJ_project\apache-tomcat-9.0.0.M26\webapps\SoundServer]
+27-Aug-2017 17:27:00.284 信息 [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+27-Aug-2017 17:27:00.533 信息 [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [D:\media\Desktop\MJ_project\apache-tomcat-9.0.0.M26\webapps\SoundServer] has finished in [1,033] ms
+27-Aug-2017 17:27:00.536 信息 [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [D:\media\Desktop\MJ_project\apache-tomcat-9.0.0.M26\webapps\xxadmin]
+27-Aug-2017 17:27:03.296 信息 [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+27-Aug-2017 17:27:07.897 信息 [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [D:\media\Desktop\MJ_project\apache-tomcat-9.0.0.M26\webapps\xxadmin] has finished in [7,361] ms
+27-Aug-2017 17:27:07.899 信息 [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [D:\media\Desktop\MJ_project\apache-tomcat-9.0.0.M26\webapps\数据库]
+27-Aug-2017 17:27:07.925 信息 [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [D:\media\Desktop\MJ_project\apache-tomcat-9.0.0.M26\webapps\数据库] has finished in [26] ms
+27-Aug-2017 17:27:07.934 信息 [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+27-Aug-2017 17:27:07.959 信息 [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["ajp-nio-8009"]
+27-Aug-2017 17:27:07.968 信息 [main] org.apache.catalina.startup.Catalina.start Server startup in 12174 ms
+27-Aug-2017 22:18:50.872 信息 [main] org.apache.catalina.core.StandardServer.await A valid shutdown command was received via the shutdown port. Stopping the Server instance.
+27-Aug-2017 22:18:50.876 信息 [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8080"]
+27-Aug-2017 22:18:51.129 信息 [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["ajp-nio-8009"]
+27-Aug-2017 22:18:51.356 信息 [main] org.apache.catalina.core.StandardService.stopInternal Stopping service [Catalina]
+27-Aug-2017 22:18:51.405 警告 [main] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesJdbc The web application [GameServer] registered the JDBC driver [com.mysql.jdbc.Driver] but failed to unregister it when the web application was stopped. To prevent a memory leak, the JDBC Driver has been forcibly unregistered.
+27-Aug-2017 22:18:51.407 警告 [main] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesJdbc The web application [GameServer] registered the JDBC driver [org.apache.ibatis.datasource.unpooled.UnpooledDataSource.DriverProxy] but failed to unregister it when the web application was stopped. To prevent a memory leak, the JDBC Driver has been forcibly unregistered.
+27-Aug-2017 22:18:51.409 警告 [main] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [GameServer] appears to have started a thread named [Timer-1] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.lang.Object.wait(Native Method)
+ java.util.TimerThread.mainLoop(Timer.java:552)
+ java.util.TimerThread.run(Timer.java:505)
+27-Aug-2017 22:18:51.411 警告 [main] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [GameServer] appears to have started a thread named [NioSocketAcceptor-1] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ sun.nio.ch.WindowsSelectorImpl$SubSelector.poll0(Native Method)
+ sun.nio.ch.WindowsSelectorImpl$SubSelector.poll(WindowsSelectorImpl.java:296)
+ sun.nio.ch.WindowsSelectorImpl$SubSelector.access$400(WindowsSelectorImpl.java:278)
+ sun.nio.ch.WindowsSelectorImpl.doSelect(WindowsSelectorImpl.java:159)
+ sun.nio.ch.SelectorImpl.lockAndDoSelect(SelectorImpl.java:86)
+ sun.nio.ch.SelectorImpl.select(SelectorImpl.java:97)
+ sun.nio.ch.SelectorImpl.select(SelectorImpl.java:101)
+ org.apache.mina.transport.socket.nio.NioSocketAcceptor.select(NioSocketAcceptor.java:281)
+ org.apache.mina.core.polling.AbstractPollingIoAcceptor$Acceptor.run(AbstractPollingIoAcceptor.java:452)
+ org.apache.mina.util.NamePreservingRunnable.run(NamePreservingRunnable.java:64)
+ java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+ java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+ java.lang.Thread.run(Thread.java:745)
+27-Aug-2017 22:18:51.418 警告 [main] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [GameServer] appears to have started a thread named [MySQL Statement Cancellation Timer] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.lang.Object.wait(Native Method)
+ java.lang.Object.wait(Object.java:502)
+ java.util.TimerThread.mainLoop(Timer.java:526)
+ java.util.TimerThread.run(Timer.java:505)
+27-Aug-2017 22:18:51.422 警告 [main] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [GameServer] appears to have started a thread named [Thread-8] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.io.FileInputStream.readBytes(Native Method)
+ java.io.FileInputStream.read(FileInputStream.java:255)
+ java.io.BufferedInputStream.read1(BufferedInputStream.java:284)
+ java.io.BufferedInputStream.read(BufferedInputStream.java:345)
+ sun.nio.cs.StreamDecoder.readBytes(StreamDecoder.java:284)
+ sun.nio.cs.StreamDecoder.implRead(StreamDecoder.java:326)
+ sun.nio.cs.StreamDecoder.read(StreamDecoder.java:178)
+ java.io.InputStreamReader.read(InputStreamReader.java:184)
+ java.io.Reader.read(Reader.java:100)
+ java.util.Scanner.readInput(Scanner.java:804)
+ java.util.Scanner.findWithinHorizon(Scanner.java:1685)
+ java.util.Scanner.nextLine(Scanner.java:1538)
+ com.dyz.gameserver.bootstrap.CheatThread.run(CheatThread.java:18)
+27-Aug-2017 22:18:51.424 警告 [main] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [GameServer] appears to have started a thread named [NioProcessor-2] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ sun.nio.ch.WindowsSelectorImpl$SubSelector.poll0(Native Method)
+ sun.nio.ch.WindowsSelectorImpl$SubSelector.poll(WindowsSelectorImpl.java:296)
+ sun.nio.ch.WindowsSelectorImpl$SubSelector.access$400(WindowsSelectorImpl.java:278)
+ sun.nio.ch.WindowsSelectorImpl.doSelect(WindowsSelectorImpl.java:159)
+ sun.nio.ch.SelectorImpl.lockAndDoSelect(SelectorImpl.java:86)
+ sun.nio.ch.SelectorImpl.select(SelectorImpl.java:97)
+ org.apache.mina.transport.socket.nio.NioProcessor.select(NioProcessor.java:97)
+ org.apache.mina.core.polling.AbstractPollingIoProcessor$Processor.run(AbstractPollingIoProcessor.java:1074)
+ org.apache.mina.util.NamePreservingRunnable.run(NamePreservingRunnable.java:64)
+ java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+ java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+ java.lang.Thread.run(Thread.java:745)
+27-Aug-2017 22:18:51.427 警告 [main] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [GameServer] appears to have started a thread named [pool-3-thread-5] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ sun.misc.Unsafe.park(Native Method)
+ java.util.concurrent.locks.LockSupport.parkNanos(LockSupport.java:215)
+ java.util.concurrent.SynchronousQueue$TransferStack.awaitFulfill(SynchronousQueue.java:460)
+ java.util.concurrent.SynchronousQueue$TransferStack.transfer(SynchronousQueue.java:362)
+ java.util.concurrent.SynchronousQueue.poll(SynchronousQueue.java:941)
+ java.util.concurrent.ThreadPoolExecutor.getTask(ThreadPoolExecutor.java:1066)
+ java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1127)
+ java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+ java.lang.Thread.run(Thread.java:745)
+27-Aug-2017 22:18:56.518 警告 [main] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [SoundServer] appears to have started a thread named [OrderedThreadPool-thread-3] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ sun.misc.Unsafe.park(Native Method)
+ java.util.concurrent.locks.LockSupport.parkNanos(LockSupport.java:215)
+ java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.awaitNanos(AbstractQueuedSynchronizer.java:2078)
+ java.util.concurrent.LinkedBlockingQueue.poll(LinkedBlockingQueue.java:467)
+ org.apache.mina.filter.executor.OrderedThreadPoolExecutor$Worker.fetchSession(OrderedThreadPoolExecutor.java:730)
+ org.apache.mina.filter.executor.OrderedThreadPoolExecutor$Worker.run(OrderedThreadPoolExecutor.java:683)
+ java.lang.Thread.run(Thread.java:745)
+27-Aug-2017 22:18:56.520 警告 [main] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [SoundServer] appears to have started a thread named [NioProcessor-5] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ sun.nio.ch.SocketDispatcher.preClose0(Native Method)
+ sun.nio.ch.SocketDispatcher.preClose(SocketDispatcher.java:59)
+ sun.nio.ch.SocketChannelImpl.implCloseSelectableChannel(SocketChannelImpl.java:838)
+ java.nio.channels.spi.AbstractSelectableChannel.implCloseChannel(AbstractSelectableChannel.java:234)
+ java.nio.channels.spi.AbstractInterruptibleChannel.close(AbstractInterruptibleChannel.java:115)
+ sun.nio.ch.SinkChannelImpl.kill(SinkChannelImpl.java:68)
+ sun.nio.ch.SinkChannelImpl.implCloseSelectableChannel(SinkChannelImpl.java:64)
+ java.nio.channels.spi.AbstractSelectableChannel.implCloseChannel(AbstractSelectableChannel.java:234)
+ java.nio.channels.spi.AbstractInterruptibleChannel.close(AbstractInterruptibleChannel.java:115)
+ sun.nio.ch.WindowsSelectorImpl.implClose(WindowsSelectorImpl.java:510)
+ sun.nio.ch.SelectorImpl.implCloseSelector(SelectorImpl.java:113)
+ java.nio.channels.spi.AbstractSelector.close(AbstractSelector.java:111)
+ org.apache.mina.transport.socket.nio.NioProcessor.doDispose(NioProcessor.java:92)
+ org.apache.mina.core.polling.AbstractPollingIoProcessor$Processor.run(AbstractPollingIoProcessor.java:1184)
+ org.apache.mina.util.NamePreservingRunnable.run(NamePreservingRunnable.java:64)
+ java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+ java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+ java.lang.Thread.run(Thread.java:745)
+27-Aug-2017 22:18:56.648 警告 [main] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesJdbc The web application [xxadmin] registered the JDBC driver [com.mysql.jdbc.Driver] but failed to unregister it when the web application was stopped. To prevent a memory leak, the JDBC Driver has been forcibly unregistered.
+27-Aug-2017 22:18:56.649 警告 [main] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [xxadmin] appears to have started a thread named [MySQL Statement Cancellation Timer] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.lang.Object.wait(Native Method)
+ java.lang.Object.wait(Object.java:502)
+ java.util.TimerThread.mainLoop(Timer.java:526)
+ java.util.TimerThread.run(Timer.java:505)
+27-Aug-2017 22:18:56.655 信息 [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8080"]
+27-Aug-2017 22:18:56.659 信息 [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["ajp-nio-8009"]
+27-Aug-2017 22:18:56.664 信息 [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8080"]
+27-Aug-2017 22:18:56.668 信息 [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["ajp-nio-8009"]
+27-Aug-2017 22:19:25.281 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Server version:        Apache Tomcat/9.0.0.M26
+27-Aug-2017 22:19:25.286 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Aug 2 2017 20:29:05 UTC
+27-Aug-2017 22:19:25.287 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Server number:         9.0.0.0
+27-Aug-2017 22:19:25.288 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Windows 7
+27-Aug-2017 22:19:25.289 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            6.1
+27-Aug-2017 22:19:25.290 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+27-Aug-2017 22:19:25.291 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             C:\Program Files\Java\jdk1.8.0_111\jre
+27-Aug-2017 22:19:25.292 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           1.8.0_111-b14
+27-Aug-2017 22:19:25.293 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+27-Aug-2017 22:19:25.294 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         D:\media\Desktop\MJ_project\apache-tomcat-9.0.0.M26
+27-Aug-2017 22:19:25.294 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         D:\media\Desktop\MJ_project\apache-tomcat-9.0.0.M26
+27-Aug-2017 22:19:25.295 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=D:\media\Desktop\MJ_project\apache-tomcat-9.0.0.M26\conf\logging.properties
+27-Aug-2017 22:19:25.296 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+27-Aug-2017 22:19:25.297 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+27-Aug-2017 22:19:25.299 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+27-Aug-2017 22:19:25.300 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=D:\media\Desktop\MJ_project\apache-tomcat-9.0.0.M26
+27-Aug-2017 22:19:25.301 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=D:\media\Desktop\MJ_project\apache-tomcat-9.0.0.M26
+27-Aug-2017 22:19:25.302 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=D:\media\Desktop\MJ_project\apache-tomcat-9.0.0.M26\temp
+27-Aug-2017 22:19:25.303 信息 [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent Loaded APR based Apache Tomcat Native library [1.2.12] using APR version [1.5.2].
+27-Aug-2017 22:19:25.304 信息 [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+27-Aug-2017 22:19:25.305 信息 [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+27-Aug-2017 22:19:26.174 信息 [main] org.apache.catalina.core.AprLifecycleListener.initializeSSL OpenSSL successfully initialized [OpenSSL 1.0.2k  26 Jan 2017]
+27-Aug-2017 22:19:26.345 信息 [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+27-Aug-2017 22:19:26.600 信息 [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+27-Aug-2017 22:19:26.604 信息 [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["ajp-nio-8009"]
+27-Aug-2017 22:19:26.611 信息 [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+27-Aug-2017 22:19:26.612 信息 [main] org.apache.catalina.startup.Catalina.load Initialization processed in 1834 ms
+27-Aug-2017 22:19:26.652 信息 [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+27-Aug-2017 22:19:26.653 信息 [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet Engine: Apache Tomcat/9.0.0.M26
+27-Aug-2017 22:19:26.664 信息 [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [D:\media\Desktop\MJ_project\apache-tomcat-9.0.0.M26\webapps\docs]
+27-Aug-2017 22:19:27.095 信息 [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [D:\media\Desktop\MJ_project\apache-tomcat-9.0.0.M26\webapps\docs] has finished in [431] ms
+27-Aug-2017 22:19:27.098 信息 [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [D:\media\Desktop\MJ_project\apache-tomcat-9.0.0.M26\webapps\download]
+27-Aug-2017 22:19:27.148 信息 [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [D:\media\Desktop\MJ_project\apache-tomcat-9.0.0.M26\webapps\download] has finished in [50] ms
+27-Aug-2017 22:19:27.152 信息 [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [D:\media\Desktop\MJ_project\apache-tomcat-9.0.0.M26\webapps\examples]
+27-Aug-2017 22:19:27.612 信息 [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [D:\media\Desktop\MJ_project\apache-tomcat-9.0.0.M26\webapps\examples] has finished in [461] ms
+27-Aug-2017 22:19:27.615 信息 [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [D:\media\Desktop\MJ_project\apache-tomcat-9.0.0.M26\webapps\GameServer]
+27-Aug-2017 22:19:28.562 信息 [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+27-Aug-2017 22:19:30.094 信息 [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [D:\media\Desktop\MJ_project\apache-tomcat-9.0.0.M26\webapps\GameServer] has finished in [2,480] ms
+27-Aug-2017 22:19:30.097 信息 [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [D:\media\Desktop\MJ_project\apache-tomcat-9.0.0.M26\webapps\host-manager]
+27-Aug-2017 22:19:30.143 信息 [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [D:\media\Desktop\MJ_project\apache-tomcat-9.0.0.M26\webapps\host-manager] has finished in [46] ms
+27-Aug-2017 22:19:30.144 信息 [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [D:\media\Desktop\MJ_project\apache-tomcat-9.0.0.M26\webapps\manager]
+27-Aug-2017 22:19:30.172 信息 [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [D:\media\Desktop\MJ_project\apache-tomcat-9.0.0.M26\webapps\manager] has finished in [28] ms
+27-Aug-2017 22:19:30.174 信息 [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [D:\media\Desktop\MJ_project\apache-tomcat-9.0.0.M26\webapps\ROOT]
+27-Aug-2017 22:19:30.201 信息 [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [D:\media\Desktop\MJ_project\apache-tomcat-9.0.0.M26\webapps\ROOT] has finished in [27] ms
+27-Aug-2017 22:19:30.202 信息 [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [D:\media\Desktop\MJ_project\apache-tomcat-9.0.0.M26\webapps\SoundServer]
+27-Aug-2017 22:19:30.935 信息 [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+27-Aug-2017 22:19:31.167 信息 [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [D:\media\Desktop\MJ_project\apache-tomcat-9.0.0.M26\webapps\SoundServer] has finished in [965] ms
+27-Aug-2017 22:19:31.169 信息 [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [D:\media\Desktop\MJ_project\apache-tomcat-9.0.0.M26\webapps\xxadmin]
+27-Aug-2017 22:19:33.847 信息 [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+27-Aug-2017 22:19:37.967 信息 [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [D:\media\Desktop\MJ_project\apache-tomcat-9.0.0.M26\webapps\xxadmin] has finished in [6,797] ms
+27-Aug-2017 22:19:37.970 信息 [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [D:\media\Desktop\MJ_project\apache-tomcat-9.0.0.M26\webapps\数据库]
+27-Aug-2017 22:19:37.997 信息 [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [D:\media\Desktop\MJ_project\apache-tomcat-9.0.0.M26\webapps\数据库] has finished in [28] ms
+27-Aug-2017 22:19:38.003 信息 [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+27-Aug-2017 22:19:38.023 信息 [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["ajp-nio-8009"]
+27-Aug-2017 22:19:38.032 信息 [main] org.apache.catalina.startup.Catalina.start Server startup in 11417 ms
+27-Aug-2017 22:44:56.983 信息 [Thread-14] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8080"]
+27-Aug-2017 22:44:57.196 信息 [Thread-14] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["ajp-nio-8009"]
+27-Aug-2017 22:44:57.409 信息 [Thread-14] org.apache.catalina.core.StandardService.stopInternal Stopping service [Catalina]
+27-Aug-2017 22:44:57.438 警告 [Thread-14] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesJdbc The web application [GameServer] registered the JDBC driver [com.mysql.jdbc.Driver] but failed to unregister it when the web application was stopped. To prevent a memory leak, the JDBC Driver has been forcibly unregistered.
+27-Aug-2017 22:44:57.441 警告 [Thread-14] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesJdbc The web application [GameServer] registered the JDBC driver [org.apache.ibatis.datasource.unpooled.UnpooledDataSource.DriverProxy] but failed to unregister it when the web application was stopped. To prevent a memory leak, the JDBC Driver has been forcibly unregistered.
+27-Aug-2017 22:44:57.442 警告 [Thread-14] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [GameServer] appears to have started a thread named [Timer-1] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.lang.Object.wait(Native Method)
+ java.util.TimerThread.mainLoop(Timer.java:552)
+ java.util.TimerThread.run(Timer.java:505)
+27-Aug-2017 22:44:57.447 警告 [Thread-14] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [GameServer] appears to have started a thread named [NioSocketAcceptor-1] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ sun.nio.ch.WindowsSelectorImpl$SubSelector.poll0(Native Method)
+ sun.nio.ch.WindowsSelectorImpl$SubSelector.poll(WindowsSelectorImpl.java:296)
+ sun.nio.ch.WindowsSelectorImpl$SubSelector.access$400(WindowsSelectorImpl.java:278)
+ sun.nio.ch.WindowsSelectorImpl.doSelect(WindowsSelectorImpl.java:159)
+ sun.nio.ch.SelectorImpl.lockAndDoSelect(SelectorImpl.java:86)
+ sun.nio.ch.SelectorImpl.select(SelectorImpl.java:97)
+ sun.nio.ch.SelectorImpl.select(SelectorImpl.java:101)
+ org.apache.mina.transport.socket.nio.NioSocketAcceptor.select(NioSocketAcceptor.java:281)
+ org.apache.mina.core.polling.AbstractPollingIoAcceptor$Acceptor.run(AbstractPollingIoAcceptor.java:452)
+ org.apache.mina.util.NamePreservingRunnable.run(NamePreservingRunnable.java:64)
+ java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+ java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+ java.lang.Thread.run(Thread.java:745)
+27-Aug-2017 22:44:57.451 警告 [Thread-14] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [GameServer] appears to have started a thread named [MySQL Statement Cancellation Timer] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.lang.Object.wait(Native Method)
+ java.lang.Object.wait(Object.java:502)
+ java.util.TimerThread.mainLoop(Timer.java:526)
+ java.util.TimerThread.run(Timer.java:505)
+27-Aug-2017 22:44:57.452 警告 [Thread-14] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [GameServer] appears to have started a thread named [Thread-8] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.io.FileInputStream.readBytes(Native Method)
+ java.io.FileInputStream.read(FileInputStream.java:255)
+ java.io.BufferedInputStream.read1(BufferedInputStream.java:284)
+ java.io.BufferedInputStream.read(BufferedInputStream.java:345)
+ sun.nio.cs.StreamDecoder.readBytes(StreamDecoder.java:284)
+ sun.nio.cs.StreamDecoder.implRead(StreamDecoder.java:326)
+ sun.nio.cs.StreamDecoder.read(StreamDecoder.java:178)
+ java.io.InputStreamReader.read(InputStreamReader.java:184)
+ java.io.Reader.read(Reader.java:100)
+ java.util.Scanner.readInput(Scanner.java:804)
+ java.util.Scanner.findWithinHorizon(Scanner.java:1685)
+ java.util.Scanner.nextLine(Scanner.java:1538)
+ com.dyz.gameserver.bootstrap.CheatThread.run(CheatThread.java:18)
+27-Aug-2017 22:44:57.455 警告 [Thread-14] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [GameServer] appears to have started a thread named [NioProcessor-5] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ sun.nio.ch.WindowsSelectorImpl$SubSelector.poll0(Native Method)
+ sun.nio.ch.WindowsSelectorImpl$SubSelector.poll(WindowsSelectorImpl.java:296)
+ sun.nio.ch.WindowsSelectorImpl$SubSelector.access$400(WindowsSelectorImpl.java:278)
+ sun.nio.ch.WindowsSelectorImpl.doSelect(WindowsSelectorImpl.java:159)
+ sun.nio.ch.SelectorImpl.lockAndDoSelect(SelectorImpl.java:86)
+ sun.nio.ch.SelectorImpl.select(SelectorImpl.java:97)
+ org.apache.mina.transport.socket.nio.NioProcessor.select(NioProcessor.java:97)
+ org.apache.mina.core.polling.AbstractPollingIoProcessor$Processor.run(AbstractPollingIoProcessor.java:1074)
+ org.apache.mina.util.NamePreservingRunnable.run(NamePreservingRunnable.java:64)
+ java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+ java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+ java.lang.Thread.run(Thread.java:745)
+27-Aug-2017 22:44:57.458 警告 [Thread-14] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [GameServer] appears to have started a thread named [pool-3-thread-1] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ sun.misc.Unsafe.park(Native Method)
+ java.util.concurrent.locks.LockSupport.parkNanos(LockSupport.java:215)
+ java.util.concurrent.SynchronousQueue$TransferStack.awaitFulfill(SynchronousQueue.java:460)
+ java.util.concurrent.SynchronousQueue$TransferStack.transfer(SynchronousQueue.java:362)
+ java.util.concurrent.SynchronousQueue.poll(SynchronousQueue.java:941)
+ java.util.concurrent.ThreadPoolExecutor.getTask(ThreadPoolExecutor.java:1066)
+ java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1127)
+ java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+ java.lang.Thread.run(Thread.java:745)
+27-Aug-2017 22:44:57.568 警告 [Thread-14] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesJdbc The web application [xxadmin] registered the JDBC driver [com.mysql.jdbc.Driver] but failed to unregister it when the web application was stopped. To prevent a memory leak, the JDBC Driver has been forcibly unregistered.
+27-Aug-2017 22:44:57.570 警告 [Thread-14] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [xxadmin] appears to have started a thread named [MySQL Statement Cancellation Timer] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.lang.Object.wait(Native Method)
+ java.lang.Object.wait(Object.java:502)
+ java.util.TimerThread.mainLoop(Timer.java:526)
+ java.util.TimerThread.run(Timer.java:505)
+27-Aug-2017 22:44:57.575 信息 [Thread-14] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8080"]
+27-Aug-2017 22:44:57.579 信息 [Thread-14] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["ajp-nio-8009"]
+27-Aug-2017 22:44:57.582 信息 [Thread-14] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8080"]
+27-Aug-2017 22:44:57.584 信息 [Thread-14] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["ajp-nio-8009"]
+27-Aug-2017 22:45:07.343 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Server version:        Apache Tomcat/9.0.0.M26
+27-Aug-2017 22:45:07.349 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Aug 2 2017 20:29:05 UTC
+27-Aug-2017 22:45:07.350 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Server number:         9.0.0.0
+27-Aug-2017 22:45:07.351 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Windows 7
+27-Aug-2017 22:45:07.352 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            6.1
+27-Aug-2017 22:45:07.353 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+27-Aug-2017 22:45:07.354 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             C:\Program Files\Java\jdk1.8.0_111\jre
+27-Aug-2017 22:45:07.355 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           1.8.0_111-b14
+27-Aug-2017 22:45:07.357 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+27-Aug-2017 22:45:07.358 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         D:\media\Desktop\MJ_project\apache-tomcat-9.0.0.M26
+27-Aug-2017 22:45:07.359 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         D:\media\Desktop\MJ_project\apache-tomcat-9.0.0.M26
+27-Aug-2017 22:45:07.360 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=D:\media\Desktop\MJ_project\apache-tomcat-9.0.0.M26\conf\logging.properties
+27-Aug-2017 22:45:07.361 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+27-Aug-2017 22:45:07.363 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+27-Aug-2017 22:45:07.366 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+27-Aug-2017 22:45:07.369 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=D:\media\Desktop\MJ_project\apache-tomcat-9.0.0.M26
+27-Aug-2017 22:45:07.370 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=D:\media\Desktop\MJ_project\apache-tomcat-9.0.0.M26
+27-Aug-2017 22:45:07.372 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=D:\media\Desktop\MJ_project\apache-tomcat-9.0.0.M26\temp
+27-Aug-2017 22:45:07.374 信息 [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent Loaded APR based Apache Tomcat Native library [1.2.12] using APR version [1.5.2].
+27-Aug-2017 22:45:07.375 信息 [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+27-Aug-2017 22:45:07.377 信息 [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+27-Aug-2017 22:45:08.215 信息 [main] org.apache.catalina.core.AprLifecycleListener.initializeSSL OpenSSL successfully initialized [OpenSSL 1.0.2k  26 Jan 2017]
+27-Aug-2017 22:45:08.382 信息 [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+27-Aug-2017 22:45:08.636 信息 [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+27-Aug-2017 22:45:08.641 信息 [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["ajp-nio-8009"]
+27-Aug-2017 22:45:08.648 信息 [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+27-Aug-2017 22:45:08.650 信息 [main] org.apache.catalina.startup.Catalina.load Initialization processed in 1789 ms
+27-Aug-2017 22:45:08.685 信息 [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+27-Aug-2017 22:45:08.687 信息 [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet Engine: Apache Tomcat/9.0.0.M26
+27-Aug-2017 22:45:08.699 信息 [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [D:\media\Desktop\MJ_project\apache-tomcat-9.0.0.M26\webapps\docs]
+27-Aug-2017 22:45:09.103 信息 [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [D:\media\Desktop\MJ_project\apache-tomcat-9.0.0.M26\webapps\docs] has finished in [403] ms
+27-Aug-2017 22:45:09.105 信息 [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [D:\media\Desktop\MJ_project\apache-tomcat-9.0.0.M26\webapps\download]
+27-Aug-2017 22:45:09.148 信息 [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [D:\media\Desktop\MJ_project\apache-tomcat-9.0.0.M26\webapps\download] has finished in [43] ms
+27-Aug-2017 22:45:09.150 信息 [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [D:\media\Desktop\MJ_project\apache-tomcat-9.0.0.M26\webapps\examples]
+27-Aug-2017 22:45:09.595 信息 [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [D:\media\Desktop\MJ_project\apache-tomcat-9.0.0.M26\webapps\examples] has finished in [445] ms
+27-Aug-2017 22:45:09.596 信息 [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [D:\media\Desktop\MJ_project\apache-tomcat-9.0.0.M26\webapps\GameServer]
+27-Aug-2017 22:45:10.475 信息 [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+27-Aug-2017 22:45:11.936 信息 [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [D:\media\Desktop\MJ_project\apache-tomcat-9.0.0.M26\webapps\GameServer] has finished in [2,340] ms
+27-Aug-2017 22:45:11.938 信息 [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [D:\media\Desktop\MJ_project\apache-tomcat-9.0.0.M26\webapps\host-manager]
+27-Aug-2017 22:45:11.977 信息 [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [D:\media\Desktop\MJ_project\apache-tomcat-9.0.0.M26\webapps\host-manager] has finished in [40] ms
+27-Aug-2017 22:45:11.979 信息 [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [D:\media\Desktop\MJ_project\apache-tomcat-9.0.0.M26\webapps\manager]
+27-Aug-2017 22:45:12.009 信息 [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [D:\media\Desktop\MJ_project\apache-tomcat-9.0.0.M26\webapps\manager] has finished in [30] ms
+27-Aug-2017 22:45:12.011 信息 [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [D:\media\Desktop\MJ_project\apache-tomcat-9.0.0.M26\webapps\ROOT]
+27-Aug-2017 22:45:12.039 信息 [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [D:\media\Desktop\MJ_project\apache-tomcat-9.0.0.M26\webapps\ROOT] has finished in [27] ms
+27-Aug-2017 22:45:12.042 信息 [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [D:\media\Desktop\MJ_project\apache-tomcat-9.0.0.M26\webapps\SoundServer]
+27-Aug-2017 22:45:12.790 信息 [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+27-Aug-2017 22:45:12.996 信息 [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [D:\media\Desktop\MJ_project\apache-tomcat-9.0.0.M26\webapps\SoundServer] has finished in [953] ms
+27-Aug-2017 22:45:12.998 信息 [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [D:\media\Desktop\MJ_project\apache-tomcat-9.0.0.M26\webapps\xxadmin]
+27-Aug-2017 22:45:15.595 信息 [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+27-Aug-2017 22:45:19.729 信息 [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [D:\media\Desktop\MJ_project\apache-tomcat-9.0.0.M26\webapps\xxadmin] has finished in [6,732] ms
+27-Aug-2017 22:45:19.730 信息 [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [D:\media\Desktop\MJ_project\apache-tomcat-9.0.0.M26\webapps\数据库]
+27-Aug-2017 22:45:19.754 信息 [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [D:\media\Desktop\MJ_project\apache-tomcat-9.0.0.M26\webapps\数据库] has finished in [23] ms
+27-Aug-2017 22:45:19.760 信息 [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+27-Aug-2017 22:45:19.779 信息 [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["ajp-nio-8009"]
+27-Aug-2017 22:45:19.787 信息 [main] org.apache.catalina.startup.Catalina.start Server startup in 11137 ms
+27-Aug-2017 22:58:25.897 信息 [main] org.apache.catalina.core.StandardServer.await A valid shutdown command was received via the shutdown port. Stopping the Server instance.
+27-Aug-2017 22:58:25.898 信息 [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8080"]
+27-Aug-2017 22:58:26.123 信息 [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["ajp-nio-8009"]
+27-Aug-2017 22:58:26.285 信息 [main] org.apache.catalina.core.StandardService.stopInternal Stopping service [Catalina]
+27-Aug-2017 22:58:26.312 警告 [main] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesJdbc The web application [GameServer] registered the JDBC driver [com.mysql.jdbc.Driver] but failed to unregister it when the web application was stopped. To prevent a memory leak, the JDBC Driver has been forcibly unregistered.
+27-Aug-2017 22:58:26.312 警告 [main] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesJdbc The web application [GameServer] registered the JDBC driver [org.apache.ibatis.datasource.unpooled.UnpooledDataSource.DriverProxy] but failed to unregister it when the web application was stopped. To prevent a memory leak, the JDBC Driver has been forcibly unregistered.
+27-Aug-2017 22:58:26.313 警告 [main] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [GameServer] appears to have started a thread named [Timer-1] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.lang.Object.wait(Native Method)
+ java.util.TimerThread.mainLoop(Timer.java:552)
+ java.util.TimerThread.run(Timer.java:505)
+27-Aug-2017 22:58:26.314 警告 [main] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [GameServer] appears to have started a thread named [NioSocketAcceptor-1] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ sun.nio.ch.WindowsSelectorImpl$SubSelector.poll0(Native Method)
+ sun.nio.ch.WindowsSelectorImpl$SubSelector.poll(WindowsSelectorImpl.java:296)
+ sun.nio.ch.WindowsSelectorImpl$SubSelector.access$400(WindowsSelectorImpl.java:278)
+ sun.nio.ch.WindowsSelectorImpl.doSelect(WindowsSelectorImpl.java:159)
+ sun.nio.ch.SelectorImpl.lockAndDoSelect(SelectorImpl.java:86)
+ sun.nio.ch.SelectorImpl.select(SelectorImpl.java:97)
+ sun.nio.ch.SelectorImpl.select(SelectorImpl.java:101)
+ org.apache.mina.transport.socket.nio.NioSocketAcceptor.select(NioSocketAcceptor.java:281)
+ org.apache.mina.core.polling.AbstractPollingIoAcceptor$Acceptor.run(AbstractPollingIoAcceptor.java:452)
+ org.apache.mina.util.NamePreservingRunnable.run(NamePreservingRunnable.java:64)
+ java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+ java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+ java.lang.Thread.run(Thread.java:745)
+27-Aug-2017 22:58:26.320 警告 [main] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [GameServer] appears to have started a thread named [MySQL Statement Cancellation Timer] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.lang.Object.wait(Native Method)
+ java.util.TimerThread.mainLoop(Timer.java:552)
+ java.util.TimerThread.run(Timer.java:505)
+27-Aug-2017 22:58:26.322 警告 [main] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [GameServer] appears to have started a thread named [Thread-8] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.io.FileInputStream.readBytes(Native Method)
+ java.io.FileInputStream.read(FileInputStream.java:255)
+ java.io.BufferedInputStream.read1(BufferedInputStream.java:284)
+ java.io.BufferedInputStream.read(BufferedInputStream.java:345)
+ sun.nio.cs.StreamDecoder.readBytes(StreamDecoder.java:284)
+ sun.nio.cs.StreamDecoder.implRead(StreamDecoder.java:326)
+ sun.nio.cs.StreamDecoder.read(StreamDecoder.java:178)
+ java.io.InputStreamReader.read(InputStreamReader.java:184)
+ java.io.Reader.read(Reader.java:100)
+ java.util.Scanner.readInput(Scanner.java:804)
+ java.util.Scanner.findWithinHorizon(Scanner.java:1685)
+ java.util.Scanner.nextLine(Scanner.java:1538)
+ com.dyz.gameserver.bootstrap.CheatThread.run(CheatThread.java:18)
+27-Aug-2017 22:58:26.323 警告 [main] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [GameServer] appears to have started a thread named [NioProcessor-2] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ sun.nio.ch.WindowsSelectorImpl$SubSelector.poll0(Native Method)
+ sun.nio.ch.WindowsSelectorImpl$SubSelector.poll(WindowsSelectorImpl.java:296)
+ sun.nio.ch.WindowsSelectorImpl$SubSelector.access$400(WindowsSelectorImpl.java:278)
+ sun.nio.ch.WindowsSelectorImpl.doSelect(WindowsSelectorImpl.java:159)
+ sun.nio.ch.SelectorImpl.lockAndDoSelect(SelectorImpl.java:86)
+ sun.nio.ch.SelectorImpl.select(SelectorImpl.java:97)
+ org.apache.mina.transport.socket.nio.NioProcessor.select(NioProcessor.java:97)
+ org.apache.mina.core.polling.AbstractPollingIoProcessor$Processor.run(AbstractPollingIoProcessor.java:1074)
+ org.apache.mina.util.NamePreservingRunnable.run(NamePreservingRunnable.java:64)
+ java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+ java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+ java.lang.Thread.run(Thread.java:745)
+27-Aug-2017 22:58:26.324 警告 [main] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [GameServer] appears to have started a thread named [pool-3-thread-1] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ sun.misc.Unsafe.park(Native Method)
+ java.util.concurrent.locks.LockSupport.parkNanos(LockSupport.java:215)
+ java.util.concurrent.SynchronousQueue$TransferStack.awaitFulfill(SynchronousQueue.java:460)
+ java.util.concurrent.SynchronousQueue$TransferStack.transfer(SynchronousQueue.java:362)
+ java.util.concurrent.SynchronousQueue.poll(SynchronousQueue.java:941)
+ java.util.concurrent.ThreadPoolExecutor.getTask(ThreadPoolExecutor.java:1066)
+ java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1127)
+ java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+ java.lang.Thread.run(Thread.java:745)
+27-Aug-2017 22:58:26.372 警告 [main] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [SoundServer] appears to have started a thread named [Timer-3] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.lang.Object.wait(Native Method)
+ java.util.TimerThread.mainLoop(Timer.java:552)
+ java.util.TimerThread.run(Timer.java:505)
+27-Aug-2017 22:58:26.412 警告 [main] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesJdbc The web application [xxadmin] registered the JDBC driver [com.mysql.jdbc.Driver] but failed to unregister it when the web application was stopped. To prevent a memory leak, the JDBC Driver has been forcibly unregistered.
+27-Aug-2017 22:58:26.412 警告 [main] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [xxadmin] appears to have started a thread named [MySQL Statement Cancellation Timer] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.lang.Object.wait(Native Method)
+ java.lang.Object.wait(Object.java:502)
+ java.util.TimerThread.mainLoop(Timer.java:526)
+ java.util.TimerThread.run(Timer.java:505)
+27-Aug-2017 22:58:26.416 信息 [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8080"]
+27-Aug-2017 22:58:26.418 信息 [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["ajp-nio-8009"]
+27-Aug-2017 22:58:26.421 信息 [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8080"]
+27-Aug-2017 22:58:26.422 信息 [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["ajp-nio-8009"]
+27-Aug-2017 22:59:09.630 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Server version:        Apache Tomcat/9.0.0.M26
+27-Aug-2017 22:59:09.637 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Aug 2 2017 20:29:05 UTC
+27-Aug-2017 22:59:09.638 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Server number:         9.0.0.0
+27-Aug-2017 22:59:09.639 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Windows 7
+27-Aug-2017 22:59:09.640 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            6.1
+27-Aug-2017 22:59:09.641 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+27-Aug-2017 22:59:09.642 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             C:\Program Files\Java\jdk1.8.0_111\jre
+27-Aug-2017 22:59:09.642 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           1.8.0_111-b14
+27-Aug-2017 22:59:09.643 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+27-Aug-2017 22:59:09.644 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         D:\media\Desktop\MJ_project\apache-tomcat-9.0.0.M26
+27-Aug-2017 22:59:09.645 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         D:\media\Desktop\MJ_project\apache-tomcat-9.0.0.M26
+27-Aug-2017 22:59:09.646 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=D:\media\Desktop\MJ_project\apache-tomcat-9.0.0.M26\conf\logging.properties
+27-Aug-2017 22:59:09.647 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+27-Aug-2017 22:59:09.649 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+27-Aug-2017 22:59:09.651 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+27-Aug-2017 22:59:09.652 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=D:\media\Desktop\MJ_project\apache-tomcat-9.0.0.M26
+27-Aug-2017 22:59:09.654 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=D:\media\Desktop\MJ_project\apache-tomcat-9.0.0.M26
+27-Aug-2017 22:59:09.656 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=D:\media\Desktop\MJ_project\apache-tomcat-9.0.0.M26\temp
+27-Aug-2017 22:59:09.658 信息 [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent Loaded APR based Apache Tomcat Native library [1.2.12] using APR version [1.5.2].
+27-Aug-2017 22:59:09.659 信息 [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+27-Aug-2017 22:59:09.660 信息 [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+27-Aug-2017 22:59:10.512 信息 [main] org.apache.catalina.core.AprLifecycleListener.initializeSSL OpenSSL successfully initialized [OpenSSL 1.0.2k  26 Jan 2017]
+27-Aug-2017 22:59:10.676 信息 [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+27-Aug-2017 22:59:10.935 信息 [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+27-Aug-2017 22:59:10.940 信息 [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["ajp-nio-8009"]
+27-Aug-2017 22:59:10.945 信息 [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+27-Aug-2017 22:59:10.947 信息 [main] org.apache.catalina.startup.Catalina.load Initialization processed in 1816 ms
+27-Aug-2017 22:59:10.982 信息 [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+27-Aug-2017 22:59:10.983 信息 [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet Engine: Apache Tomcat/9.0.0.M26
+27-Aug-2017 22:59:10.994 信息 [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [D:\media\Desktop\MJ_project\apache-tomcat-9.0.0.M26\webapps\docs]
+27-Aug-2017 22:59:11.409 信息 [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [D:\media\Desktop\MJ_project\apache-tomcat-9.0.0.M26\webapps\docs] has finished in [414] ms
+27-Aug-2017 22:59:11.411 信息 [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [D:\media\Desktop\MJ_project\apache-tomcat-9.0.0.M26\webapps\download]
+27-Aug-2017 22:59:11.458 信息 [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [D:\media\Desktop\MJ_project\apache-tomcat-9.0.0.M26\webapps\download] has finished in [47] ms
+27-Aug-2017 22:59:11.461 信息 [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [D:\media\Desktop\MJ_project\apache-tomcat-9.0.0.M26\webapps\examples]
+27-Aug-2017 22:59:11.881 信息 [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [D:\media\Desktop\MJ_project\apache-tomcat-9.0.0.M26\webapps\examples] has finished in [420] ms
+27-Aug-2017 22:59:11.883 信息 [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [D:\media\Desktop\MJ_project\apache-tomcat-9.0.0.M26\webapps\GameServer]
+27-Aug-2017 22:59:12.883 信息 [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+27-Aug-2017 22:59:14.524 信息 [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [D:\media\Desktop\MJ_project\apache-tomcat-9.0.0.M26\webapps\GameServer] has finished in [2,642] ms
+27-Aug-2017 22:59:14.529 信息 [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [D:\media\Desktop\MJ_project\apache-tomcat-9.0.0.M26\webapps\host-manager]
+27-Aug-2017 22:59:14.573 信息 [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [D:\media\Desktop\MJ_project\apache-tomcat-9.0.0.M26\webapps\host-manager] has finished in [44] ms
+27-Aug-2017 22:59:14.575 信息 [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [D:\media\Desktop\MJ_project\apache-tomcat-9.0.0.M26\webapps\manager]
+27-Aug-2017 22:59:14.616 信息 [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [D:\media\Desktop\MJ_project\apache-tomcat-9.0.0.M26\webapps\manager] has finished in [40] ms
+27-Aug-2017 22:59:14.619 信息 [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [D:\media\Desktop\MJ_project\apache-tomcat-9.0.0.M26\webapps\ROOT]
+27-Aug-2017 22:59:14.646 信息 [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [D:\media\Desktop\MJ_project\apache-tomcat-9.0.0.M26\webapps\ROOT] has finished in [27] ms
+27-Aug-2017 22:59:14.649 信息 [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [D:\media\Desktop\MJ_project\apache-tomcat-9.0.0.M26\webapps\SoundServer]
+27-Aug-2017 22:59:15.495 信息 [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+27-Aug-2017 22:59:15.763 信息 [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [D:\media\Desktop\MJ_project\apache-tomcat-9.0.0.M26\webapps\SoundServer] has finished in [1,113] ms
+27-Aug-2017 22:59:15.766 信息 [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [D:\media\Desktop\MJ_project\apache-tomcat-9.0.0.M26\webapps\xxadmin]
+27-Aug-2017 22:59:18.649 信息 [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+27-Aug-2017 22:59:23.236 信息 [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [D:\media\Desktop\MJ_project\apache-tomcat-9.0.0.M26\webapps\xxadmin] has finished in [7,471] ms
+27-Aug-2017 22:59:23.237 信息 [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [D:\media\Desktop\MJ_project\apache-tomcat-9.0.0.M26\webapps\数据库]
+27-Aug-2017 22:59:23.262 信息 [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [D:\media\Desktop\MJ_project\apache-tomcat-9.0.0.M26\webapps\数据库] has finished in [25] ms
+27-Aug-2017 22:59:23.269 信息 [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+27-Aug-2017 22:59:23.287 信息 [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["ajp-nio-8009"]
+27-Aug-2017 22:59:23.295 信息 [main] org.apache.catalina.startup.Catalina.start Server startup in 12346 ms

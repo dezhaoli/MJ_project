@@ -15,6 +15,32 @@
 /*!40101 SET @OLD_SQL_MODE=@@SQL_MODE, SQL_MODE='NO_AUTO_VALUE_ON_ZERO' */;
 /*!40111 SET @OLD_SQL_NOTES=@@SQL_NOTES, SQL_NOTES=0 */;
 
+
+
+CREATE TABLE `account` (
+  `id` int(11) NOT NULL AUTO_INCREMENT,
+  `Uuid` int(11) NOT NULL,
+  `openid` varchar(64) NOT NULL,
+  `nickName` varchar(50) NOT NULL,
+  `headIcon` varchar(255) NOT NULL,
+  `roomCard` int(11) NOT NULL,
+  `unionid` varchar(35) NOT NULL,
+  `province` varchar(35) NOT NULL DEFAULT '',
+  `city` varchar(35) NOT NULL DEFAULT '',
+  `sex` int(11) NOT NULL,
+  `manager_up_id` int(11) NOT NULL,
+  `prizecount` int(11) NOT NULL DEFAULT '1',
+  `actualCard` int(11) NOT NULL DEFAULT '0',
+  `totalCard` int(11) NOT NULL DEFAULT '0',
+  `createTime` datetime NOT NULL,
+  `lastLoginTime` datetime NOT NULL,
+  `status` char(1) NOT NULL DEFAULT '0',
+  `isGame` char(1) NOT NULL DEFAULT '0',
+  PRIMARY KEY (`id`),
+  KEY `PK_ACCOUNT_MANAGER_UP_ID` (`manager_up_id`)
+) ENGINE=InnoDB DEFAULT CHARSET=utf8;
+
+
 --
 -- Table structure for table `gameaccountindex`
 --

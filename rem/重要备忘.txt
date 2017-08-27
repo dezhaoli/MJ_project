@@ -62,3 +62,8 @@ netstat -ano
 
 ###数据库知识
 http://www.runoob.com/mysql/mysql-database-import.html
+
+
+###微信开放平台
+lidezhao07@163.com
+Wx123456

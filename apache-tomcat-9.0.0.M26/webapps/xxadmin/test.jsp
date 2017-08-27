@@ -5,7 +5,7 @@
 <% 
 
 String driver="com.mysql.jdbc.Driver";
-String url="jdbc:mysql://localhost:3306/roledata"; // 连接到 school 数据库 
+String url="jdbc:mysql://localhost:3306/roledata?zeroDateTimeBehavior=convertToNull"; // 连接到 school 数据库 
 
 String userid="root"; // 用户 
 String passwd="123456"; // 密码 
