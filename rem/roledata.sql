@@ -15,12 +15,15 @@
 /*!40101 SET @OLD_SQL_MODE=@@SQL_MODE, SQL_MODE='NO_AUTO_VALUE_ON_ZERO' */;
 /*!40111 SET @OLD_SQL_NOTES=@@SQL_NOTES, SQL_NOTES=0 */;
 
+DROP TABLE IF EXISTS `contactway`;
 CREATE TABLE `contactway` (
   `id` int(11) NOT NULL AUTO_INCREMENT,
   `content` varchar(255) DEFAULT NULL,
   PRIMARY KEY (`id`)
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8;
 
+
+DROP TABLE IF EXISTS `account`;
 CREATE TABLE `account` (
   `id` int(11) NOT NULL AUTO_INCREMENT,
   `Uuid` int(11) NOT NULL,
@@ -36,8 +39,8 @@ CREATE TABLE `account` (
   `prizecount` int(11) NOT NULL DEFAULT '1',
   `actualCard` int(11) NOT NULL DEFAULT '0',
   `totalCard` int(11) NOT NULL DEFAULT '0',
-  `createTime` datetime DEFAULT 0,
-  `lastLoginTime` datetime DEFAULT 0,
+  `createTime` datetime DEFAULT '2017-01-01 00:00:00',
+  `lastLoginTime` datetime DEFAULT '2017-01-01 00:00:00',
   `status` char(1) NOT NULL DEFAULT '0',
   `isGame` char(1) NOT NULL DEFAULT '0',
   PRIMARY KEY (`id`),

@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Context docBase="/Users/devin/Desktop/MJ_project/tomcat9/wtpwebapps/GameServer" path="/GameServer" reloadable="true" source="org.eclipse.jst.jee.server:GameServer"/>
