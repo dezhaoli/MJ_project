@@ -67,3 +67,9 @@ http://www.runoob.com/mysql/mysql-database-import.html
 ###微信开放平台
 lidezhao07@163.com
 Wx123456
+
+
+###配置tomcat系统变量，用于log4j.jar 生成日志
+CATALINA_HOME=D:\media\Desktop\MJ_project\tomcat9
+
+log4j.appender.R.File=${catalina.home}/logs/
