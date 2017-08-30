@@ -73,3 +73,12 @@ Wx123456
 CATALINA_HOME=D:\media\Desktop\MJ_project\tomcat9
 
 log4j.appender.R.File=${catalina.home}/logs/
+
+
+###产品信息
+compony:whyzx
+keystore: TongleMJ.keystore
+tlmj123456
+
+tlmj_key
+
